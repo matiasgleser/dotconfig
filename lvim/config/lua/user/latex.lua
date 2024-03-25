@@ -89,7 +89,7 @@ end
 -- New command for automatic cleanup
 vim.api.nvim_create_autocmd("User", {
     pattern = "VimtexEventQuit",
-    callback = ClearLatexAuxFiles()
+    callback = ClearLatexAuxFiles
     -- callback = function()
         -- vim.cmd("LatexClean")
     -- end,
