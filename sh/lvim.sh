@@ -12,8 +12,5 @@ export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
 
 # Adds support for language specific LunarVim
 
-alias texvim='LVIM_CONFIG=config.latex lvim'
-alias pyvim='LVIM_CONFIG=config.python lvim'
-
-
-eval "clear"
+alias texvim='LVIM_CONFIG=latex lvim'
+alias pyvim='LVIM_CONFIG=python lvim'
