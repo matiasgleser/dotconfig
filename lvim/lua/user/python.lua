@@ -5,6 +5,7 @@ lvim.plugins = {
   "mfussenegger/nvim-dap-python",
   "nvim-neotest/neotest",
   "nvim-neotest/neotest-python",
+  "nvim-neotest/nvim-nio",
 }
 
 -- automatically install python syntax highlighting
