@@ -396,7 +396,7 @@ alias luamake="/opt/lua-language-server/3rd/luamake/luamake"
 export PATH="$PATH:/opt/lua-language-server/bin"
 
 # Add Support for LunarVim
-export PATH=/home/mati/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
 
