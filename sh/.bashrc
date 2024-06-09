@@ -91,7 +91,7 @@ GIT_COLOR=${LIGHT_GREEN}
 
 # Function to update PS1
 function update_ps1 {
-  PS1="[\u@\h] $(parse_git_branch)\n$(shorten_path) \$\[\e[0m\] "
+  PS1="\n[\u@\h] $(parse_git_branch)\n$(shorten_path) \$\[\e[0m\] "
 }
 
 
